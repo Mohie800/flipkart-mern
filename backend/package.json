@@ -1,0 +1,37 @@
+{
+	"name": "mern-server",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "echo \"No build specified\" && exit 1",
+		"test": "echo \"No test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"@sendgrid/mail": "^7.6.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.1",
+		"cloudinary": "^1.28.1",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^14.2.0",
+		"express": "^4.17.2",
+		"express-fileupload": "^1.2.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.1.7",
+		"nodemailer": "^6.7.2",
+		"paytmchecksum": "^1.5.0",
+		"stripe": "^8.200.0",
+		"uuid": "^8.3.2",
+		"validator": "^13.7.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mohie800/mern-server.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Mohie800/mern-server/issues"
+	},
+	"homepage": "https://github.com/Mohie800/mern-server#readme"
+}
